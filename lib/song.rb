@@ -22,7 +22,7 @@ class Song
   end
 
   def artists
-    
+
   end
 
   def genre_count
