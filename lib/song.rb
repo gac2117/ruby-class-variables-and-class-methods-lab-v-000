@@ -31,6 +31,7 @@ class Song
       genre_hash[genre] = []
       genre_hash[genre] << 1
     end
+    genre_hash
   end
 
   def artist_count
