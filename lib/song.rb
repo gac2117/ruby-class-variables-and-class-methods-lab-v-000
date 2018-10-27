@@ -20,4 +20,16 @@ class Song
   def genres=(genre)
     return @@genre
   end
+
+  def artists
+    
+  end
+
+  def genre_count
+
+  end
+
+  def artist_count
+
+  end
 end
