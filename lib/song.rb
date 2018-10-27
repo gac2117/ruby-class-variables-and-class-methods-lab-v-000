@@ -24,7 +24,7 @@ class Song
     else
       unique_genre << @genre
     end
-    return unique_genre
+    unique_genre
   end
 
   def artists
