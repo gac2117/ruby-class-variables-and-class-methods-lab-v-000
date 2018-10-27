@@ -20,9 +20,9 @@ class Song
   def genres (genre)
     unique_genre = []
     if @@genres.include?(brand)
-      nil 
+      nil
     else
-      unique_genre << genre 
+      unique_genre << genre
     end
     return unique_genre
   end
