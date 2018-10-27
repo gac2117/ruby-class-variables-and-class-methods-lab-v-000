@@ -18,13 +18,7 @@ class Song
   end
 
   def self.genres
-    unique_genre = []
-    if unique_genre.include?(@genre)
-      nil
-    else
-      unique_genre << @genre
-    end
-    unique_genre
+    @@genres.uniq 
   end
 
   def artists
