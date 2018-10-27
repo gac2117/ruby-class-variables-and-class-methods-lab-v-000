@@ -19,7 +19,7 @@ class Song
 
   def self.genres
     unique_genre = []
-    if @@genres.include?(genre)
+    if @@genres.include?(@genre)
       nil
     else
       unique_genre << genre
