@@ -17,7 +17,7 @@ class Song
     @@count
   end
 
-  def genres (genre)
+  def genres (@genre)
     unique_genre = []
     if @@genres.include?(brand)
       nil
