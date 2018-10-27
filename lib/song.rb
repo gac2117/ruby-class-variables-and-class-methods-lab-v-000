@@ -17,7 +17,7 @@ class Song
     @@count
   end
 
-  def self.genres (genre)
+  def self.genres
     unique_genre = []
     if unique_genre.include?(genre)
       nil
