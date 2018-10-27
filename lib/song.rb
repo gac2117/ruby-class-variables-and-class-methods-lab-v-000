@@ -22,7 +22,7 @@ class Song
     if @@genres.include?(@genre)
       nil
     else
-      unique_genre << genre
+      unique_genre << @genre
     end
     return unique_genre
   end
