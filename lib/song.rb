@@ -17,8 +17,14 @@ class Song
     @@count
   end
 
-  def genres=(genre)
-    return @@genre
+  def genres (genre)
+    unique_genre = []
+    if @@genres.include?(brand)
+      nil 
+    else
+      unique_genre << genre 
+    end
+    return unique_genre
   end
 
   def artists
